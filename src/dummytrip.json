@@ -2,46 +2,149 @@
     "data":
     [{
         "id": 1,
-        "source": "Del",
-        "destination": "Mum",
+        "source": "Delhi",
+        "destination": "Mumbai",
         "fare": 2000,
-        "date": "10/03/2024"
+        "date": "10/03/2024",
+        "duration": "2hr 15min"
     },
     {
         "id": 2,
-        "source": "Del",
-        "destination": "Kol",
+        "source": "Delhi",
+        "destination": "Kolkata",
         "fare": 2500,
-        "date": "14/03/2024"
+        "date": "14/03/2024",
+        "duration": "2hr 30min"
     },
     {
         "id": 3,
-        "source": "Mum",
-        "destination": "Blr",
+        "source": "Mumbai",
+        "destination": "Bangalore",
         "fare": 1700,
-        "date": "08/03/2024"
+        "date": "08/03/2024",
+        "duration": "1hr 45min"
     },
     {
         "id": 4,
-        "source": "Kol",
-        "destination": "Mum",
+        "source": "Kolkata",
+        "destination": "Mumbai",
         "fare": 2800,
-        "date": "20/03/2024"
+        "date": "20/03/2024",
+        "duration": "2hr 45min"
     },
     {
         "id": 5,
-        "source": "Hyd",
-        "destination": "Mum",
+        "source": "Hyderabad",
+        "destination": "Mumbai",
         "fare": 1500,
-        "date": "15/03/2024"
+        "date": "15/03/2024",
+        "duration": "1hr 50min"
     },
     {
         "id": 6,
-        "source": "Del",
-        "destination": "Hyd",
+        "source": "Delhi",
+        "destination": "Hyderabad",
         "fare": 3000,
-        "date": "25/03/2024"
-    }]
+        "date": "25/03/2024",
+        "duration": "3hr 10min"
+    },
+    {
+        "id": 7,
+        "source": "Hyderabad",
+        "destination": "Delhi",
+        "fare": 3500,
+        "date": "29/03/2024",
+        "duration": "3hr 15min"
+    },
+    {
+        "id": 8,
+        "source": "Bangalore",
+        "destination": "Hyderabad",
+        "fare": 2000,
+        "date": "04/04/2024",
+        "duration": "1hr 15min"
+    },
+    {
+        "id": 9,
+        "source": "Delhi",
+        "destination": "Chennai",
+        "fare": 5000,
+        "date": "10/04/2024",
+        "duration": "3hr 30min"
+    },
+    {
+        "id": 10,
+        "source": "Chennai",
+        "destination": "Hyderabad",
+        "fare": 2800,
+        "date": "03/04/2024",
+        "duration": "2hr 15min"
+    },
+    {
+        "id": 11,
+        "source": "Kolkata",
+        "destination": "Delhi",
+        "fare": 3300,
+        "date": "08/04/2024",
+        "duration": "2hr 45min"
+    },
+    {
+        "id": 12,
+        "source": "Delhi",
+        "destination": "Jaipur",
+        "fare": 2500,
+        "date": "22/03/2024",
+        "duration": "2hr 00min"
+    },
+    {
+        "id": 13,
+        "source": "Jaipur",
+        "destination": "Hyderabad",
+        "fare": 4000,
+        "date": "09/04/2024",
+        "duration": "2hr 50min"
+    },
+    {
+        "id": 14,
+        "source": "Mumbai",
+        "destination": "Hyderabad",
+        "fare": 5000,
+        "date": "12/04/2024",
+        "duration": "2hr 30min"
+    },
+    {
+        "id": 15,
+        "source": "Kolkata",
+        "destination": "Hyderabad",
+        "fare": 3000,
+        "date": "15/04/2024",
+        "duration": "3hr 05min"
+    },
+    {
+        "id": 16,
+        "source": "Jaipur",
+        "destination": "Bangalore",
+        "fare": 4400,
+        "date": "06/04/2024",
+        "duration": "2hr 35min"
+    },
+    {
+        "id": 17,
+        "source": "Chennai",
+        "destination": "Kolkata",
+        "fare": 3900,
+        "date": "13/04/2024",
+        "duration": "2hr 40min"
+    },
+    {
+        "id": 18,
+        "source": "Mumbai",
+        "destination": "Delhi",
+        "fare": 4000,
+        "date": "25/04/2024",
+        "duration": "2hr 45min"
+    }
+]
 
 }
 
