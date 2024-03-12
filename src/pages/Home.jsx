@@ -33,7 +33,6 @@ const Home = ({ list, setList }) => {
 
     setList([...data1]);
     // setList([...list, ...data1]);
-    // navigate("/trip-detail");
     navigate("/filter");
   };
 

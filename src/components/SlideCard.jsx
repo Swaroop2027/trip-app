@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 const SlideCard = () => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 3,

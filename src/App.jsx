@@ -6,6 +6,9 @@ import Confirmation from "./pages/Confirmation";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Filter from "./pages/Filter";
+import Hotels from "./pages/Hotels";
+import Homestays from "./pages/Homestays";
+import Holidays from "./pages/Holidays";
 
 const App = () => {
   const [list, setList] = useState([]);
@@ -19,9 +22,13 @@ const App = () => {
           <Route path="/book" element={<Booking />} />
           <Route path="/confirmed" element={<Confirmation />} />
           <Route path="/filter" element={<Filter list={list} />} />
+          <Route path="/hotels" element={<Hotels />} />
+          <Route path="/homestays" element={<Homestays />} />
+          <Route path="/holidays" element={<Holidays />} />
         </Routes>
       </div>
       <Footer />
+      {/* <Holidays /> */}
     </div>
   );
 };

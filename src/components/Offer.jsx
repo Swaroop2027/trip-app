@@ -11,7 +11,7 @@ const Offer = () => {
   console.log(toggle);
 
   return (
-    <div className="bg-white shadow-lg mx-8 flex flex-col items-center justify-center">
+    <div className="bg-white shadow-lg mx-8 flex flex-col items-center justify-center rounded-md">
       <div className="flex my-[20px] gap-8">
         <h2 className="text-3xl text-[#393939] font-bold">Offers</h2>
         <div className="flex items-center">

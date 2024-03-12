@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 
 const ImageSlider = () => {
   const settings = {
-    dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 4,
@@ -14,7 +13,7 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="bg-white shadow-lg py-6 px-12 mx-9 flex flex-col justify-center">
+    <div className="bg-white shadow-lg py-6 px-12 mx-9 flex flex-col justify-center rounded-md">
       <div className="my-2">
         <p className="text-3xl font-[700]">
           Unlock Lesser-Known Wonders of India

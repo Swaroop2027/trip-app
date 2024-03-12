@@ -28,40 +28,50 @@ const Navbar = () => {
                 <span className="text-[#008cff] font-semibold">Flights</span>
               </li>
             </Link>
-            <li className="flex flex-col items-center">
-              <span>
-                <img
-                  src="https://cdn4.iconfinder.com/data/icons/hotel-service-5/300/hotel-512.png"
-                  alt=""
-                  className="w-[25px] h-[20px]"
-                />
-              </span>
-              <span className="text-[#008cff] font-semibold">Hotels</span>
-            </li>
-            <li className="flex flex-col items-center">
-              <span>
-                <img
-                  src="https://cdn.iconscout.com/icon/premium/png-256-thumb/homestay-1723913-1463389.png?f=webp"
-                  alt=""
-                  className="w-[25px] h-[20px]"
-                />
-              </span>
-              <span className="text-[#008cff] font-semibold">
-                Homestays & Villas
-              </span>
-            </li>
-            <li className="flex flex-col items-center">
-              <span>
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/4343/4343430.png"
-                  alt=""
-                  className="w-[25px] h-[20px]"
-                />
-              </span>
-              <span className="text-[#008cff] font-semibold">
-                Holiday Packages
-              </span>
-            </li>
+
+            <Link to="/hotels">
+              <li className="flex flex-col items-center">
+                <span>
+                  <img
+                    src="https://cdn4.iconfinder.com/data/icons/hotel-service-5/300/hotel-512.png"
+                    alt=""
+                    className="w-[25px] h-[20px]"
+                  />
+                </span>
+                <span className="text-[#008cff] font-semibold">Hotels</span>
+              </li>
+            </Link>
+
+            <Link to="/homestays">
+              <li className="flex flex-col items-center">
+                <span>
+                  <img
+                    src="https://cdn.iconscout.com/icon/premium/png-256-thumb/homestay-1723913-1463389.png?f=webp"
+                    alt=""
+                    className="w-[25px] h-[20px]"
+                  />
+                </span>
+                <span className="text-[#008cff] font-semibold">
+                  Homestays & Villas
+                </span>
+              </li>
+            </Link>
+
+            <Link to="/holidays">
+              <li className="flex flex-col items-center">
+                <span>
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/4343/4343430.png"
+                    alt=""
+                    className="w-[25px] h-[20px]"
+                  />
+                </span>
+                <span className="text-[#008cff] font-semibold">
+                  Holiday Packages
+                </span>
+              </li>
+            </Link>
+
             <li className="flex flex-col items-center">
               <span>
                 <img
@@ -133,6 +143,7 @@ const Navbar = () => {
             </p>
           </li>
         </ul>
+
         <ul>
           <li className="text-sm">
             <p>Language</p>
