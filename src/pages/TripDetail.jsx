@@ -5,11 +5,11 @@ const TripDetail = ({ list }) => {
   // console.log(list);
 
   const handleClick = (_id) => {
-    const data = list.find((ele) => ele.id === _id)
+    const data = list.find((ele) => ele.id === _id);
     navigate("/book", { state: data });
   };
   return (
-    <div className="flex justify-center items-start my-4 rounded-md">
+    <div className="flex justify-center items-center rounded-md min-h-[70vh]">
       <div className="flex flex-col gap-4 h-[250px] w-[800px]">
         {list.map((ele, ind) => {
           return (

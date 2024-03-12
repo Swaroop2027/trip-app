@@ -1,21 +1,29 @@
 import { useState } from "react";
-import Home from "./components/Home";
 import { Route, Routes } from "react-router-dom";
-import TripDetail from "./components/TripDetail";
-import Booking from "./components/Booking";
-import Confirmation from "./components/Confirmation";
+import Home from "./pages/Home";
+import TripDetail from "./pages/TripDetail";
+import Booking from "./pages/Booking";
+import Confirmation from "./pages/Confirmation";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Filter from "./components/Filter";
 
 const App = () => {
   const [list, setList] = useState([]);
 
   return (
-    <div className="overflow-x-hidden h-screen w-full bg-[linear-gradient(rgba(6,20,36,255),_rgba(20,68,122,255))]">
-      <Routes>
-        <Route path="/" element={<Home list={list} setList={setList} />} />
-        <Route path="/trip-detail" element={<TripDetail list={list} />} />
-        <Route path="/book" element={<Booking />} />
-        <Route path="/confirmed" element={<Confirmation />} />
-      </Routes>
+    <div className="overflow-x-hidden h-screen w-full bg-[#f2f2f2]">
+      {/* <Navbar />
+      <div className="mt-8 pt-[50px]">
+        <Routes>
+          <Route path="/" element={<Home list={list} setList={setList} />} />
+          <Route path="/trip-detail" element={<TripDetail list={list} />} />
+          <Route path="/book" element={<Booking />} />
+          <Route path="/confirmed" element={<Confirmation />} />
+        </Routes>
+      </div>
+      <Footer /> */}
+      <Filter />
     </div>
   );
 };
