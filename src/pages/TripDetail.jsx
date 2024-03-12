@@ -9,14 +9,18 @@ const TripDetail = ({ list }) => {
     navigate("/book", { state: data });
   };
   return (
-    <div className="flex justify-center items-center rounded-md min-h-[70vh]">
-      <div className="flex flex-col gap-4 h-[250px] w-[800px]">
+    <div className="flex justify-center items-center rounded-md">
+      <div className="flex flex-col gap-4 h-[250px] w-[90%]">
         {list.map((ele, ind) => {
           return (
             <div
               className="bg-white text-xl flex justify-evenly items-center w-full p-3 rounded border hover:outline-none hover:shadow-outline-red border-red-500 transition duration-150 ease-in-out"
               key={ind}
             >
+              <div className="flex flex-col items-center">
+                <img src={ele.url} alt="" className="h-[25px] w-[25px]" />
+                <p className="font-semibold"> {ele.airline}</p>
+              </div>
               <div>
                 <p>From:</p>
                 <p className="font-bold"> {ele.source}</p>
@@ -37,8 +41,9 @@ const TripDetail = ({ list }) => {
                 <p>Fare:</p>
                 <p className="font-bold">₹{ele.fare}</p>
               </div>
+
               <button
-                className="bg-blue-400 text-blue-950 rounded-md p-2 border-2 hover:outline-none hover:shadow-outline-blue hover:border-black transition duration-150 ease-in-out font-semibold"
+                className="border-[1px] border-solid border-[#008cff] rounded-[96px] text-[#008cff] bg-[#daebff] p-2"
                 onClick={() => handleClick(ele.id)}
               >
                 Book Now

@@ -58,7 +58,7 @@ const Booking = () => {
   }, [users]);
 
   return (
-    <div className="w-full max-w-lg mx-auto p-8">
+    <div className="h-[62vh] w-full max-w-lg mx-auto p-8">
       <div className="bg-white rounded-lg shadow-lg p-6">
         <h2 className="text-lg font-medium mb-6">Payment Information</h2>
         <form>
@@ -137,7 +137,7 @@ const Booking = () => {
           <div className="mt-8">
             <button
               type="submit"
-              className="w-full bg-[linear-gradient(rgba(6,20,36,56),_rgba(20,68,122,255))] text-white font-medium py-3 rounded-lg focus:outline-none"
+              className="w-full bg-[linear-gradient(rgba(83,178,254,1),_rgba(6,90,243,1))] text-white font-medium py-3 rounded-lg focus:outline-none"
               onClick={(e) => handleClick(e)}
             >
               Book Now

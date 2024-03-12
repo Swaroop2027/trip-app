@@ -1,29 +1,33 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="bg-white shadow-lg rounded-sm p-4 fixed top-0 left-0 w-full z-10">
       <div className="flex justify-around">
-        <span>
-          <img
-            src="https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/logo@2x.png"
-            alt=""
-            className="h-[36px] w-[110px]"
-          />
-        </span>
+        <Link to="/">
+          <span>
+            <img
+              src="https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/logo@2x.png"
+              alt=""
+              className="h-[36px] w-[110px]"
+            />
+          </span>
+        </Link>
 
         <nav>
           <ul className="flex gap-5">
-            <li className="flex flex-col items-center">
-              <span>
-                <img
-                  src="https://png.pngtree.com/png-clipart/20190619/original/pngtree-vector-airplane-icon-png-image_3989898.jpg"
-                  alt=""
-                  className="w-[25px] h-[20px]"
-                />
-              </span>
-              <span className="text-[#008cff] font-semibold">Flights</span>
-            </li>
+            <Link to="/filter">
+              <li className="flex flex-col items-center">
+                <span>
+                  <img
+                    src="https://png.pngtree.com/png-clipart/20190619/original/pngtree-vector-airplane-icon-png-image_3989898.jpg"
+                    alt=""
+                    className="w-[25px] h-[20px]"
+                  />
+                </span>
+                <span className="text-[#008cff] font-semibold">Flights</span>
+              </li>
+            </Link>
             <li className="flex flex-col items-center">
               <span>
                 <img
